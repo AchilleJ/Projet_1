@@ -1,0 +1,60 @@
+body{
+	width: 1050px;
+	margin: auto;
+	font-family: 'Open Sans', sans-serif;
+}
+
+/*header*/
+
+header{
+	border-bottom: 1px solid grey;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+
+object{
+	width: 40px;
+}
+
+.bouton1{
+	display: flex;
+	flex direction: row;
+
+}
+
+header p {
+	color: purple;
+	margin-left: 30px;
+	padding: 10px;
+
+}
+.get_started{
+	border: 1px solid purple;
+	border-radius: 5px;
+}
+
+/* fin header*/
+
+
+nav ul{
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	width: 75%;
+
+}
+
+nav li{
+	text-align: center;
+
+}
+
+nav img{
+	width: 100px;
+}
+
